@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif+Thai:wght@300&display=swap');
+* 
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    font-family: 'Lora', serif;
+   
+    
+    
+}
+#nav-bar 
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #a7e8fc,#309af0);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: black!important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    
+}
+.fa-bars
+{
+    color: black;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*---------------banner--------------*/
+
+#banner
+{
+    background-image: linear-gradient(to right, #a7e8fc,#309af0);
+    color: black;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 40px;
+}
+.play-btn
+{
+    width: 80px;
+    padding: 20px;
+}
+#banner a
+{
+    color: green;
+    text-decoration: none;
+
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+/*--------------service section-------------*/
+
+#services
+{
+    padding: 80px 0;
+
+}
+.service-img
+{
+    width: 200px;
+    margin-top: 40px;
+}
+.services
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+
+}
+.title::before
+{
+    content: '';
+    background: #309af0;
+    height: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #309af0;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-warning
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #a7e8fc,#309af0);
+}
+
+/*-------------------about us---------------------*/
+
+#about-us
+{
+    background: #a7e8fc;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 8%;
+
+}
+#about-us ul li{
+    margin: 10px 0;
+}
+
+/*--------------------testimonials----------------*/
+
+#testimonials
+{
+    margin: 80px 0;
+
+
+}
+.testimonials
+{
+    border-left: 4px solid #309af0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img
+{
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 14px;
+}
+
+/*-------------------socail media---------------*/
+
+#social-media
+{
+    background-image: linear-gradient(to right, #a7e8fc,#309af0);
+    padding: 80px 0;
+}
+#social-media p 
+{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+
+}
+
+/*-------------------footer----------------------*/
+
+#footer
+{
+    background-image: linear-gradient(to right, #a7e8fc,#309af0);
+    color: black;
+ 
+}
+.footer-img 
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box-contact
+{
+    padding: 50px;
+    
+
+}
+.footer-box-contact p 
+{
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+.footer-box-contact i
+{
+    padding-top: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a7e8fc,#309af0);
+}
+.footer-box-subscribe
+{
+    padding: 50px;
+}
+.footer-box-subscribe p
+{
+    font-size: 25px;
+    
+    margin-bottom: 30px;
+}
+.footer-box-subscribe .form-control
+{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 300px;
+}
+.footer-box-subscribe .btn-primary
+{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+    color: black;
+    background-image: linear-gradient(to right, #a7e8fc,#309af0);
+}
+hr
+{
+    background-color: #309af0;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+/*-------------------vedio-------------------*/
+
+#video 
+{
+    padding: 50px;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: darkblue;
+
+}
+.content {
+    margin: 10%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px lightslategray;
+}
+.signup-text {
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: mediumblue;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding: 0px;
+    color: midnightblue;
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.form-control:focus {
+    color: navy;
+    background-color: #fff;
+    border-color: lightskyblue;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-class {
+    padding: 10px 20px;
+    border-color: mediumblue;
+    color: mediumblue;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn-class:hover {
+    background-color: mediumblue;
+    color: #fff;
+}
+.btn-cancel {
+    float: right;
+    transition: 0.4s;
+    cursor: pointer;
+    
+    
+    
+}
+.btn-cancel:hover {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+}
+a {
+    color: blue;
+    padding-left: 10px;
+   
+}
+a:hover {
+    color: tomato;
+    text-decoration: none;
+}

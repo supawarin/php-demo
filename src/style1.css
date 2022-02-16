@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    background: rgb(190, 243, 240);
+}
+.row {
+    background: #fff;
+    border-radius: 15px;
+    margin-top: 120px;
+}
+img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.form-control {
+    display: block;
+    width: 150%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5;
+    border-color: rgb(74, 223, 223);
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding: 0px;
+    color: rgb(5, 131, 99);
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.form-control:focus {
+    color: teal;
+    background-color: #fff;
+    border-color: lightseagreen;
+    outline: 0;
+    box-shadow: none;
+}
+.btn1 {
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    height: 50px;
+    width: 150%;
+    background-color: rgb(3, 163, 147);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: rgb(61, 176, 243);
+}
+ion-icon {
+    font-size: 20px;
+    padding-right: 5px;
+  }
+  a {
+    color: blue;
+    padding-left: 10px;
+   
+}
+a:hover {
+    color: teal;
+    text-decoration: none;
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 0px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #f2dede;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
